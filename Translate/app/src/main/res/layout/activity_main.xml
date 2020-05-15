@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_blue_light">
+
+    <EditText
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Enter Text Or Speak"
+        android:gravity="center"
+        android:maxLines="4"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_mic_black_24dp"
+        android:layout_marginTop="250dp"/>
+
+    <ImageButton
+        android:id="@+id/iclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/itranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_translate_black_24dp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:hint="Translated Text" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="320dp"/>
+
+</RelativeLayout>

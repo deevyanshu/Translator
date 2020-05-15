@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Translate</string>
+    <string name="enter_text_or_speak">Enter Text Or Speak</string>
+    <string name="todo">TODO</string>
+</resources>
