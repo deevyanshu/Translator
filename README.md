@@ -1,2 +1,2 @@
 # Translator
-Language translator
+Language translator with voice command using firebase
